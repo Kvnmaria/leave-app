@@ -59,7 +59,7 @@ form2.addEventListener('submit', function (e) {
         .then(respData => {
 
             if (respData < 400) {
-                window.location.pathname = './Welcome/welcome.html'
+                window.location.pathname = '/Welcome_Page/welcome.html'
             } else {
                 console.log('Please Enter a Appropriate Data');
             }
