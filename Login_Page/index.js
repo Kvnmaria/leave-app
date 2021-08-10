@@ -1,6 +1,5 @@
 const form = document.getElementById('Form');
 const form2 = document.getElementById('Form_2');
-console.log(form2);
 
 const employeeId = document.getElementById('employeeId')
 const password = document.getElementById('Password')
@@ -38,7 +37,7 @@ form.addEventListener('submit', function (e) {
             if (respData < 400) {
                 window.location.pathname = './Welcome/welcome.html'
             } else {
-                console.log('Get Lost');
+                console.log('Please Enter the Appropriate Data');
             }
 
         })
@@ -62,7 +61,7 @@ form2.addEventListener('submit', function (e) {
             if (respData < 400) {
                 window.location.pathname = './Welcome/welcome.html'
             } else {
-                console.log('Get Lost');
+                console.log('Please Enter a Appropriate Data');
             }
 
         })
