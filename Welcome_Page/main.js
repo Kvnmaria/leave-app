@@ -6,3 +6,4 @@ btn.onclick = () => {
 
     sidebar.classList.toggle('active');
 }
+

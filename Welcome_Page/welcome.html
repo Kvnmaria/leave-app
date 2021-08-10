@@ -13,6 +13,7 @@
 
 <body>
 
+
     <div class="sidebar">
         <div class="logo_content">
             <div class="logo">
@@ -47,6 +48,51 @@
                 </a>
             </li>
         </ul>
+    </div>
+
+
+    <div class="welcome_msg">
+        <h1>Welcome Kevin</h1>
+    </div>
+
+    <div class="profile-pic">
+        <img class="profile-img" src="./Images/Kevin.jpeg.JPG" alt="">
+    </div>
+
+
+    <div class="main_section profile-section">
+
+        <div class="edit_profile">
+            <h2>Edit Profile</h2>
+        </div>
+
+        <!-- Div For Form -->
+        <div class="form-main">
+
+            <form id="Form" class="form" action="POST">
+
+                <div class="form-control">
+
+                    <span>EmployeeId</span>
+                    <input type="number" id="EmployeeId" value="23321" readonly>
+
+                    <span>Name</span>
+                    <input type="text" id="Name" placeholder="Name">
+
+                    <span>Mail</span>
+                    <input type="text" id="Mail" placeholder="Mail">
+
+                    <span>MobileNo</span>
+                    <input type="number" id="Number" placeholder="Number">
+
+                </div>
+
+                <button type="submit" id="Button" class="btn">Update</button>
+
+            </form>
+
+        </div>
+
     </div>
 
     <script src="./main.js"></script>
