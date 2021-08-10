@@ -28,14 +28,14 @@ function databaseConnection() {
     })
 }
 
+const app = express();
+
 // adding the cors middleware
 app.use(cors());
 
 const init = async () => {
 
     try {
-
-        const app = express();
 
         app.use(express.json());
         app.use(express.urlencoded({ extended: true }));
